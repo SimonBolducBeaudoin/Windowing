@@ -1,4 +1,4 @@
-#include "../includes/Windowing.h"
+#include <Windowing.h>
 #include "../src/Windowing.tpp"
 
 // Explicit template instanciation

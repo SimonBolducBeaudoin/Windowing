@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../SM-Special_functions/special_functions.h"
+#include <special_functions.h>
 
 #define _USE_MATH_DEFINES
 #define PI M_PI
