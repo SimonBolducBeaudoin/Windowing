@@ -26,11 +26,16 @@ void Tukey_Window( FloatType* argument , double* abscisse, uint N , double alpha
 	Assumes argument as length N and x_max = N - 1
 */
 template <class FloatType>
-void Tukey_modifed_Window( FloatType* argument , double x_1 , double x_2 , uint N );
+void Tukey_Window( FloatType* argument , double x_1 , double x_2 , uint N );
 
 /*
 	argument * Tukey(abscisse,x_1,x_2,x_max)
 	argument and abscisse have length N
 */
 template <class FloatType>
-void Tukey_modifed_Window( FloatType* argument , double* abscisse , uint N ,  double x_1 , double x_2 , double x_max );
+void Tukey_Window( FloatType* argument , double* abscisse , uint N ,  double x_1 , double x_2 , double x_max );
+
+
+template <class FloatType>
+void Tukey_Window( FloatType* argument , double* abscisse , uint N ,  double x_1 , double x_2 , double x_3 , double x_4 , double x_max );
+
